@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from './Dashboard.module.css';
 
 const Dashboard = ({ children }) => {
   return (
-    <div className={styles.dashboard}>
+    <div className="flex h-screen">
       {children}
     </div>
   );
